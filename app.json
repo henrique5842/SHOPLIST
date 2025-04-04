@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ShopList",
-    "slug": "ShopList",
+    "name": "SHOPLIST",
+    "slug": "shoplist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bcf3dfbb-4efd-4467-b8bd-bced9b0b4630"
+      }
+    },
+    "owner": "henrk2019"
   }
 }
